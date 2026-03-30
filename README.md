@@ -1,4 +1,4 @@
-# Medical Insurance SQL Analysis (PostgreSQL)
+# Medical Insurance SQL Analysis (PostgreSQL & PowerBi)
 
 ## Project Overview
 
