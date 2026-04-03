@@ -44,7 +44,7 @@ The dataset contains information about patients and their insurance details.
 
 ### 1. Basic Analysis
 
-* Total number of patients (100000)
+* Total number of patients
 * Average insurance charges
 * Distribution of smokers vs non-smokers
 
