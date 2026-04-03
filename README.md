@@ -21,6 +21,7 @@ The objective is to extract meaningful insights related to insurance charges, pa
 
 * PostgreSQL
 * SQL (Joins, Aggregations, Window Functions, CTEs)
+* PowerBi for Dashboard Analysis
 
 ---
 
