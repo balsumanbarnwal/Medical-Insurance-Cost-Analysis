@@ -1,5 +1,3 @@
-🟢 Beginner Level (Basics)
-
 -- Display all records from the dataset.
 
 select * from medical_insurance;
@@ -58,8 +56,6 @@ or region = 'West';
 
 select * from medical_insurance
 where region in ('South', 'West');
-
-🟡 Intermediate Level (Filtering & Aggregation)
 
 -- Find the average charges for smokers vs non-smokers.
 
@@ -123,7 +119,6 @@ where annual_premium > (select avg(annual_premium) from medical_insurance);
 select region, sum(annual_premium) as total_charges from medical_insurance
 group by region;
 
-🔵 Advanced Level (Subqueries & Window Functions)
 
 -- Find patients who have charges higher than the average charges of smokers.
 
@@ -233,7 +228,6 @@ select * from medical_insurance
 order by annual_premium desc
 limit (select count(*)*.2 from medical_insurance);
 
-🔴 Scenario-Based / Real-World Questions
 
 -- Does smoking significantly increase insurance charges? (Compare averages)
 
